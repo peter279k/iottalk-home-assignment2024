@@ -1,0 +1,9 @@
+iottalk_server_uRL = 'URL'
+mqtt_broker = None
+mqtt_port = 1883
+mqtt_encryption = False
+mqtt_user = 'ID'
+mqtt_password = 'PW'
+
+uart_rate = 9600
+
