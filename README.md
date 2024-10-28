@@ -35,44 +35,75 @@ Every joint function for ODF should change into the following code snippets:
 For `temperature_control` x1:
 
 ```python
+def run(*args):
+
+    return args['temperature_control'][0]
 ```
 
 For `temperature_control` x2:
 
 ```python
+def run(*args):
+
+    return args['temperature_control'][1]
+
 ```
 
 For `temperature_control` x3:
 
 ```python
+def run(*args):
+
+    return args['temperature_control'][2]
+
 ```
 
 For `humidity_control` x1:
 
 ```python
+def run(*args):
+
+    return args['humidity_control'][0]
+
 ```
 
 For `humidity_control` x2:
 
 ```python
+def run(*args):
+
+    return args['humidity_control'][1]
+
 ```
 
 For `humidity_control` x3:
 
 ```python
+def run(*args):
+
+    return args['humidity_control'][2]
 ```
 
 For `ping_control` x1:
 
 ```python
+def run(*args):
+
+    return args['ping_control'][0]
 ```
 
 For `ping_control` x2:
 
 ```python
+def run(*args):
+
+    return args['ping_control'][1]
 ```
 
 For `ping_control` x3:
 
 ```python
+def run(*args):
+
+    return args['ping_control'][2]
 ```
