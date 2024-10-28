@@ -107,3 +107,26 @@ def run(*args):
 
     return args['ping_control'][2]
 ```
+
+# References
+
+## DHT-11
+
+- https://nkust.gitbook.io/micro-bit/micropython-dht11-du-gan-qi
+
+## HC-SR04
+
+- https://nkust.gitbook.io/micro-bit/micropython-chao-yin-bo-hcsr04
+
+## Heart rate monitor
+
+- https://sensorkit.joy-it.net/en/sensors/ky-039
+
+## MicroPython micro:bit uart
+
+- https://forum.micropython.org/viewtopic.php?t=11746
+- https://microbit-micropython.readthedocs.io/en/v2-docs/uart.html#module-microbit.uart
+
+## PySerial for Dummy sensor
+
+- https://pyserial.readthedocs.io/en/latest/pyserial.html
