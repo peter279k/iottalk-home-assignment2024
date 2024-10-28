@@ -31,7 +31,6 @@ default_color = [255, 210, 00]
 default_sensor_info = {
     'temperature_control': default_color,
     'humidity_control': default_color,
-    'ping_control': default_color,
 }
 
 def Dummy_Sensor():
@@ -57,13 +56,6 @@ def Dummy_Sensor():
         sensor_info['humidity_control'] = red_color
     else:
         sensor_info['humidity_control'] = green_color
-
-    sonar = sensor_info['ping_control']
-    if sonar <= 10:
-        sensor_info['ping_control'] = red_color
-    else:
-        sensor_info['ping_control'] = green_color
-
 
     time.sleep(1)
 
