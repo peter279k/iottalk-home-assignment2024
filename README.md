@@ -8,7 +8,7 @@ This project is for IotTalk course in the NTOU 2024.
 
 The senario is available in the following picture:
 
-![scenario img](https://i.imgur.com/N6dNOjE.png)
+![scenario img](https://i.imgur.com/xKHIxxa.png)
 
 ## Setup
 
@@ -84,37 +84,13 @@ def run(*args):
     return args['humidity_control'][2]
 ```
 
-For `ping_control` x1:
-
-```python
-def run(*args):
-
-    return args['ping_control'][0]
-```
-
-For `ping_control` x2:
-
-```python
-def run(*args):
-
-    return args['ping_control'][1]
-```
-
-For `ping_control` x3:
-
-```python
-def run(*args):
-
-    return args['ping_control'][2]
-```
-
 # References
 
 ## DHT-11
 
 - https://nkust.gitbook.io/micro-bit/micropython-dht11-du-gan-qi
 
-## HC-SR04
+## HC-SR04 (future work)
 
 - https://nkust.gitbook.io/micro-bit/micropython-chao-yin-bo-hcsr04
 
