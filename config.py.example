@@ -1,9 +1,8 @@
-iottalk_server_uRL = 'URL'
-mqtt_broker = None
-mqtt_port = 1883
-mqtt_encryption = False
-mqtt_user = 'ID'
-mqtt_password = 'PW'
+iottalk_server_url = 'https://class.iottalk.tw'
+mqtt_broker = 'iot.iottalk.tw'
+mqtt_port = 8883
+mqtt_encryption = True
+mqtt_user = 'iottalk'
+mqtt_password = 'iottalk2023'
 
-uart_rate = 9600
-
+uart_rate = 115200
