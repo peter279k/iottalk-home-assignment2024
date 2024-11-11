@@ -18,7 +18,8 @@ Before setting this project, we can look at the following result picture:
 
 ### config.py
 
-Creating the `config.py` file and it can refer the `config.py.example` file.
+1. Creating the `config.py` file and it can refer the `config.py.example` file.
+2. To configure the baud rate, it should be `115200`.
 
 ### micro:bit
 
@@ -94,7 +95,7 @@ def run(*args):
 
 - https://nkust.gitbook.io/micro-bit/micropython-chao-yin-bo-hcsr04
 
-## Heart rate monitor
+## Heart rate monitor (future work)
 
 - https://sensorkit.joy-it.net/en/sensors/ky-039
 
