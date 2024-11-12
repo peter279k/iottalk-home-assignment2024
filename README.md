@@ -90,6 +90,7 @@ def run(*args):
 ## DHT-11
 
 - https://nkust.gitbook.io/micro-bit/micropython-dht11-du-gan-qi
+- https://github.com/rhubarbdog/microbit-dht11 (version_2.py)
 
 ## HC-SR04 (future work)
 
