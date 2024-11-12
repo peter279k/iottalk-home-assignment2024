@@ -58,8 +58,6 @@ def Dummy_Sensor():
     else:
         sensor_info['humidity_control'] = green_color
 
-    time.sleep(1)
-
     return sensor_info
 
 def Dummy_Control(data:list):
