@@ -6,3 +6,4 @@ mqtt_user = 'iottalk'
 mqtt_password = 'iottalk2023'
 
 uart_rate = 115200
+uart_port = 'COM3'
